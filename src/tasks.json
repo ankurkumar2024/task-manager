@@ -1,5 +1,11 @@
 [
   {
+    "id": 1,
+    "title": "Set up environment",
+    "description": "Install Node.js, npm, and git",
+    "completed": true
+  },
+  {
     "id": 2,
     "title": "New Task",
     "description": "New Task Description",
@@ -7,12 +13,6 @@
   },
   {
     "id": 3,
-    "title": "New Task",
-    "description": "New Task Description",
-    "completed": false
-  },
-  {
-    "id": 4,
     "title": "New Task",
     "description": "New Task Description",
     "completed": false
