@@ -1,0 +1,62 @@
+TAP version 14
+Server is listening on 3000
+# Subtest: POST /tasks
+    ok 1 - should be equal
+    1..1
+ok 1 - POST /tasks # time=18.257ms
+
+# Subtest: POST /tasks with invalid data
+    ok 1 - should be equal
+    1..1
+ok 2 - POST /tasks with invalid data # time=2.618ms
+
+# Subtest: GET /tasks
+    ok 1 - should be equal
+    ok 2 - specified property should be defined own property
+    ok 3 - specified property should be defined own property
+    ok 4 - specified property should be defined own property
+    ok 5 - specified property should be defined own property
+    ok 6 - type is number
+    ok 7 - type is string
+    ok 8 - type is string
+    ok 9 - type is boolean
+    1..9
+ok 3 - GET /tasks # time=2.63ms
+
+# Subtest: GET /tasks/:id
+    ok 1 - should be equal
+    ok 2 - should match pattern
+    1..2
+ok 4 - GET /tasks/:id # time=2.177ms
+
+# Subtest: GET /tasks/:id with invalid id
+    ok 1 - should be equal
+    1..1
+ok 5 - GET /tasks/:id with invalid id # time=1.476ms
+
+# Subtest: PUT /tasks/:id
+    ok 1 - should be equal
+    1..1
+ok 6 - PUT /tasks/:id # time=1.765ms
+
+# Subtest: PUT /tasks/:id with invalid id
+    ok 1 - should be equal
+    1..1
+ok 7 - PUT /tasks/:id with invalid id # time=1.426ms
+
+# Subtest: PUT /tasks/:id with invalid data
+    ok 1 - should be equal
+    1..1
+ok 8 - PUT /tasks/:id with invalid data # time=1.194ms
+
+# Subtest: DELETE /tasks/:id
+    ok 1 - should be equal
+    1..1
+ok 9 - DELETE /tasks/:id # time=1.73ms
+
+# Subtest: DELETE /tasks/:id with invalid id
+    ok 1 - should be equal
+    1..1
+ok 10 - DELETE /tasks/:id with invalid id # time=1.463ms
+
+1..10
